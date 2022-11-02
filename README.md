@@ -1,6 +1,6 @@
-# Log into IB
+# IB Machine Learning Studio
 
-# Find 
+# IB Flow Editor
 
 
 # Code examples in Refiner
