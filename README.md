@@ -1,7 +1,12 @@
 # IB Machine Learning Studio
 
+![GitHub](MS1.png)
+
+![GitHub](MS2.png)
+
 # IB Flow Editor
 
+![GitHub](FE1.png)
 
 # Code examples in Refiner
 
