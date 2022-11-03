@@ -91,3 +91,4 @@ def my_test_udf_date_diff(some_value1 , some_value2):
     - Idea: call API for the v ery first row and use the value for the rest of the rows 
       If the sheet has 20,000 items then the API call would not be called 20,000 time, but only once and used for the other 19,999 rows
 ```
+![GitHub](API1.png)
