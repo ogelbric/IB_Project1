@@ -50,7 +50,7 @@ def my_test_udf(some_value):
   clean2=clean1.replace(' ','')
   clean3=clean2.replace(',','')
 
-  url = 'https://api.currencyapi.com/v3/latest?apikey=qihwpZcnuY3McDGzemOtdAjXNgbdQWIoEyB03nIf&currencies=EUR'
+  url = 'https://api.currencyapi.com/v3/latest?apikey=qihwpZcnuY3McDGzemYOUR_KEY_HEREIoEyB03nIf&currencies=EUR'
   response = requests.get(url)
   data = response.json()
 
