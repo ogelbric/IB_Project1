@@ -79,4 +79,15 @@ def my_test_udf_date_diff(some_value1 , some_value2):
  
   output_value = delta.days
   return output_value
-  ```
+```
+
+# Imvrovements
+
+```
+1) Subscribe to a better API call
+    - with out limits for number of calls per day 
+    - with out limits for the number of calls per second
+2) Change the UDF to only call the API call for the currency conversion once 
+    - Idea: call API for the v ery first row and use the value for the rest of the rows 
+      If the sheet has 20,000 items then the API call would not be called 20,000 time, but only once and used for the other 19,999 rows
+```
